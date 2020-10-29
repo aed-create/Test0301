@@ -15,7 +15,7 @@
          enabled="true"
          homeMashup=""
          identifier=""
-         lastModifiedDate="2020-07-15T16:17:16.997Z"
+         lastModifiedDate="2020-10-29T14:30:16.399Z"
          name="SimulatorGitThing"
          projectName="Simulator"
          published="false"
@@ -80,10 +80,31 @@
                              name="GitRepoURL"
                              ordinal="4"></FieldDefinition>
                             <FieldDefinition
+                             aspect.defaultValue="prefix"
+                             aspect.friendlyName="Localization Tokens Prefix"
+                             baseType="STRING"
+                             description="Prefix used for exporting Localization tokens"
+                             name="LocalizationTokensPrefix"
+                             ordinal="10"></FieldDefinition>
+                            <FieldDefinition
                              baseType="PASSWORD"
                              description=""
                              name="Password"
                              ordinal="1"></FieldDefinition>
+                            <FieldDefinition
+                             aspect.defaultValue="0"
+                             aspect.friendlyName="Proxy Port"
+                             baseType="INTEGER"
+                             description="Proxy Port"
+                             name="ProxyPort"
+                             ordinal="10"></FieldDefinition>
+                            <FieldDefinition
+                             aspect.defaultValue="proxyHostName"
+                             aspect.friendlyName="Proxy URL"
+                             baseType="STRING"
+                             description="The HTTP proxy used for connection to the remote; leave blank if not used "
+                             name="ProxyURL"
+                             ordinal="9"></FieldDefinition>
                             <FieldDefinition
                              aspect.defaultValue="/smartparking"
                              aspect.friendlyName="File Repository Path"
@@ -91,6 +112,13 @@
                              description=""
                              name="RepoPathName"
                              ordinal="6"></FieldDefinition>
+                            <FieldDefinition
+                             aspect.defaultValue="false"
+                             aspect.friendlyName="Use Proxy?"
+                             baseType="BOOLEAN"
+                             description="Should Proxy be used?"
+                             name="UseProxy"
+                             ordinal="8"></FieldDefinition>
                             <FieldDefinition
                              baseType="STRING"
                              description=""
@@ -107,12 +135,12 @@
                             </BranchName>
                             <CommitEmail>
                             <![CDATA[
-                            jdoe@ptc.com
+                            ebeidadel@gmail.com
                             ]]>
                             </CommitEmail>
                             <CommitName>
                             <![CDATA[
-                            Vaibhav
+                            Adel Ebeid
                             ]]>
                             </CommitName>
                             <FileRepository>
@@ -122,14 +150,26 @@
                             </FileRepository>
                             <GitRepoURL>
                             <![CDATA[
-                            https://github.com/Vaibhav2700/Test0301
+                            https://github.com/aed-create/Test0301
                             ]]>
                             </GitRepoURL>
+                            <LocalizationTokensPrefix>
+                            <![CDATA[
+                            prefix
+                            ]]>
+                            </LocalizationTokensPrefix>
                             <Password></Password>
+                            <ProxyPort>0</ProxyPort>
+                            <ProxyURL>
+                            <![CDATA[
+                            proxyHostName
+                            ]]>
+                            </ProxyURL>
                             <RepoPathName></RepoPathName>
+                            <UseProxy>false</UseProxy>
                             <User>
                             <![CDATA[
-                            Vaibhav2700
+                            aed-create
                             ]]>
                             </User>
                         </Row>

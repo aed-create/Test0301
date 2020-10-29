@@ -13,7 +13,7 @@
          documentationContent=""
          enabled="true"
          homeMashup=""
-         lastModifiedDate="2020-07-15T16:10:22.450Z"
+         lastModifiedDate="2020-10-29T13:53:41.399Z"
          locked="false"
          lockedTime="2018-02-20T21:40:47.329Z"
          mobileMashup=""
@@ -111,6 +111,19 @@
                             <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
                             <name>
                             <![CDATA[
+                            GitCommitterEmail
+                            ]]>
+                            </name>
+                            <value>
+                            <![CDATA[
+                            user@email.com
+                            ]]>
+                            </value>
+                        </Row>
+                        <Row>
+                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <name>
+                            <![CDATA[
                             homePhone
                             ]]>
                             </name>
@@ -174,6 +187,19 @@
                             <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
                             <name>
                             <![CDATA[
+                            GitCommitterName
+                            ]]>
+                            </name>
+                            <value>
+                            <![CDATA[
+                            User name
+                            ]]>
+                            </value>
+                        </Row>
+                        <Row>
+                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <name>
+                            <![CDATA[
                             middleName
                             ]]>
                             </name>
@@ -196,6 +222,15 @@
                             ]]>
                             </name>
                             <value></value>
+                        </Row>
+                        <Row>
+                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <name>
+                            <![CDATA[
+                            UseGitCommitUserValues
+                            ]]>
+                            </name>
+                            <value>false</value>
                         </Row>
                     </Rows>
                 </ConfigurationTable>
